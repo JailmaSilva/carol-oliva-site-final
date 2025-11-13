@@ -3,5 +3,6 @@
   command = "npm run build && npm run export"
   publish = "out"
 
+
 [build.environment]
   NEXT_PUBLIC_API_URL = "http://localhost:4000"
