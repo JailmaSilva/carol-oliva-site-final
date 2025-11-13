@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // REMOVEMOS: output: "export"
+  output: "export",
+  images: { unoptimized: true }, // para next/image em export estático
 };
 
 module.exports = nextConfig;
