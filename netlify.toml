@@ -1,7 +1,7 @@
 [build]
   base = "frontend"
-  command = "npm ci && npm run build"
-  publish = "frontend/.netlify/static"
+  command = "npm install && npm run build"
+  publish = ".netlify/static"
 
 [[plugins]]
   package = "@netlify/next-runtime"
