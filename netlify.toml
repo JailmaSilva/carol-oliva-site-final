@@ -1,7 +1,8 @@
 [build]
   base = "frontend"
-  command = "npm run build"
-  publish = "frontend/.next"
+  command = "npm ci && npm run build"
+  # o plugin do Next cuida do publish e gera ".netlify/static"
+  publish = ".netlify/static"
 
 [[plugins]]
   package = "@netlify/next-runtime"
