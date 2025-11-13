@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  images: { unoptimized: true }, // para next/image em export estático
+  images: { unoptimized: true },
+  // ❌ REMOVER isto:
+  // output: "export",
 };
 
 module.exports = nextConfig;
