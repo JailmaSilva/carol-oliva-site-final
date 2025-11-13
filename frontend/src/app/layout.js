@@ -3,6 +3,7 @@ export const metadata = {
   description: "Seleção e entrega de fotos e vídeos em alta resolução",
 };
 import "./globals.css";
+
 import Header from "../components/Header";
 export default function RootLayout({ children }) {
   return (
